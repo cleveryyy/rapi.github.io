@@ -1,0 +1,242 @@
+<html><head>
+    <link rel="icon" href="assets/img/logo.jpg" sizes="180px">
+	<title>Mazda</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="assets/css/w3.css"></head>
+	
+	 
+	 
+	
+	<body>
+	<body style="background-color: grey;">
+		 <div class="w3-card-4">
+			<img src="assets/img/mazdabanner.jpg" style="width:100%">
+		</div>
+  
+		<div class="w3-container w3-bar w3-card-4 " style="padding: 1px;background-color: grey;">
+			<img src="assets/img/mazdatransparant.png" style="width:100px">
+				
+				<div class="w3-bar-item w3-right" style="margin-right: 65%"> 
+					<button class="w3-bar-item w3-button w3-large w3-right w3-round-large" onclick="tekan('Home')">Home</button>
+					<button class="w3-bar-item w3-button w3-large w3-right w3-round-large" onclick="tekan('Profile')">Profile</button>
+				</div>
+				
+				<div class="w3-bar-item w3-dropdown-hover w3-right">
+					<button class="w3-button w3-large w3-round-large">Type</button>
+					<div class="w3-dropdown-content w3-bar-block w3-round-large w3-right w3-card-2">
+						<button class="w3-button w3-large w3-bar-item w3-round-large w3-right" onclick="tekan('Sedan')">Sedan</button>
+						<button class="w3-button w3-large w3-bar-item w3-round-large" onclick="tekan('Hatchback')">Hatchback</button>
+						<button class="w3-button w3-large w3-bar-item w3-round-large" onclick="tekan('Wagon')">Wagon</button>
+						<button class="w3-button w3-large w3-bar-item w3-round-large" onclick="tekan('JDM')">JDM</button>
+					</div>
+				</div>
+		</div>
+	
+	<div id="Sedan" class="w3-container mazda w3-animate-opacity" style="display:none">
+		
+		<br>
+		<div class="card">
+			<div class="card-content">
+				<center><div class="card-title">Sedan</div></center>
+				<img src="assets/img/cx3.jpg" style="width:100%">
+				<div class="card-description">CX-3</div>
+			</div>
+		</div>
+
+		<div class="w3-animate-top">
+		<div class="card">
+			<div class="card-content">
+				<center><div class="card-title">Sedan</div></center>
+				<img src="assets/img/cx5.jpg" style="width:100%">
+				<div class="card-description">CX-5</div>
+			</div>
+		</div>
+		</div>
+		
+		<div class="w3-animate-zoom">
+		<div class="card">
+			<div class="card-content">
+				<center><div class="card-title">Sedan</div></center>
+				<img src="assets/img/cx8.jpg" style="width:100%">
+				<div class="card-description">CX-8</div>
+			</div>
+		</div>
+		</div>
+		
+		<div class="w3-animate-bottom">
+		<div class="card">
+			<div class="card-content">
+				<center><div class="card-title">Sedan</div></center>
+				<img src="assets/img/cx9.jpg" style="width:100%">
+				<div class="card-description">CX-9</div>
+			</div>
+		</div>
+		</div>
+	
+	</div>
+	
+	<div id="Hatchback" class="w3-container mazda w3-animate-bottom" style="display:none">
+		
+		<br>
+		<div class="card">
+			<div class="card-content">
+				<center><div class="card-title">Hatchback</div></center>
+				<img src="assets/img/mazda2.jpg" style="width:100%">
+				<div class="card-description">MAZDA 2</div>
+			</div>
+		</div>
+
+		<div class="w3-animate-zoom">
+		<div class="card">
+			<div class="card-content">
+				<center><div class="card-title">Hatchback</div></center>
+				<img src="assets/img/mazda3.jpg" style="width:100%">
+				<div class="card-description">MAZDA 3</div>
+			</div>
+		</div>
+		</div>
+		
+		<div class="w3-animate-fading">
+		<div class="card">
+			<div class="card-content">
+				<center><div class="card-title">Hatchback</div></center>
+				<img src="assets/img/mazdaalexa.jpg" style="width:100%">
+				<div class="card-description">MAZDA ALEXA</div>
+			</div>
+		</div>
+		</div>
+	
+	</div>
+	
+	<div id="Wagon" class="w3-container mazda w3-animate-top" style="display:none">
+		
+		<br>
+		<div class="card">
+			<div class="card-content">
+				<center><div class="card-title">Wagon</div></center>
+				<img src="assets/img/mazda6eliteestate.jpg" style="width:100%">
+				<div class="card-description">MAZDA 6 ELITE ESTATE</div>
+			</div>
+		</div>
+
+		<div class="w3-animate-left">
+		<div class="card">
+			<div class="card-content">
+				<center><div class="card-title">Wagon</div></center>
+				<img src="assets/img/mazdafamilia.jpg" style="width:100%">
+				<div class="card-description">MAZDA FAMILIA</div>
+			</div>
+		</div>
+		</div>
+		
+		<div class="w3-animate-right">
+		<div class="card">
+			<div class="card-content">
+				<center><div class="card-title">Wagon</div></center>
+				<img src="assets/img/mazdaatenza.jpg" style="width:100%">
+				<div class="card-description">MAZDA ATENZA</div>
+			</div>
+		</div>
+		</div>
+	
+	</div>
+	
+	<div id="JDM" class="w3-container mazda w3-animate-left" style="display:none">
+		
+		<br>
+		<div class="w3-animate-top">
+		<div class="card">
+			<div class="card-content">
+				<center><div class="card-title">JDM</div></center>
+				<img src="assets/img/rx7.jpg" style="width:100%">
+				<div class="card-description">RX-7</div>
+			</div>
+		</div>
+		</div>
+		
+		<div class="w3-animate-bottom">
+		<div class="card">
+			<div class="card-content">
+				<center><div class="card-title">JDM</div></center>
+				<img src="assets/img/rx8.jpg" style="width:100%">
+				<div class="card-description">RX-8</div>
+			</div>
+		</div>
+		</div>
+		
+		<div class="w3-animate-zoom">
+		<div class="card">
+			<div class="card-content">
+				<center><div class="card-title">JDM</div></center>
+				<img src="assets/img/miata.jpg" style="width:100%">
+				<div class="card-description">MIATA</div>
+			</div>
+		</div>
+		</div>
+	
+	</div>
+
+	<div id="Profile" class="w3-container mazda w3-animate-zoom" style="display:none">
+		
+		<br>
+		<div class="card">
+			<div class="card-content">
+				<center><div class="card-title">My Profile</div></center>
+				<img src="assets/img/Rafi.jpeg" style="width:100%">
+				<div class="card-description">
+					<h4>Nama : Rafi Putra Perkasa</h4>
+					<p>NIM   : 10123118</p>
+					<p>Kelas : IF-3</p>
+				</div>
+			</div>
+		</div>
+	
+	</div>
+	
+	<div id="Home" class="w3-card lego w3-animate-opacity">
+		<img src="assets/img/mazdagif.gif" style="width:100%">
+	</div>
+		
+		<script> 
+		function tekan(mazda) { 
+		  var i; 
+		  var x = document.getElementsByClassName("mazda"); 
+		  for (i = 0; i < x.length; i++) { 
+			x[i].style.display = "none";   
+		  } 
+		  document.getElementById(mazda).style.display = "block";   
+		} 
+		</script> 
+		
+		<style>
+        /* Styles for the card container */
+        .card {
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px; /* Add margin for spacing */
+            float: left; /* Float the cards to be side by side */
+        }
+
+        /* Styles for the card content */
+        .card-content {
+            padding: 20px;
+        }
+
+        /* Styles for the card title */
+        .card-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* Styles for the card description */
+        .card-description {
+            font-size: 1em;
+            color: #555;
+        }
+		</style>
+		
+	
+</body></html>
